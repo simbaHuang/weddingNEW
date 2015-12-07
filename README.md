@@ -12,4 +12,4 @@ weddingNew
   * js           //js
   * less         //less
   * plugin       //插件
-  ```js
+
