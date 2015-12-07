@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> slider </title>
+		<meta name="Generator" content="Notepad++">
+		<meta name="Keywords" content="网站常用效果插件">
+		<meta name="Author" content="Eric">
+		<meta http-equiv="Content-Language" content="zh-CN">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
+		<!--页面在规定时间内跳转到指定页面-->
+		<!--<meta http-equiv="Refresh" content="n;url=http://www.baidu.com">-->
+		<!--强制页面在当前窗口中以独立页面显示，可以防止自己的网页被别人当作一个frame页调用-->
+		<meta http-equiv="windows-Target" content="_top">
+		<link rel="stylesheet" href="./css/sliderStyle.css" />
+	</head>
+	<body>
+		
+		<div id="slider">
+			<div class="sliderBox"><a href="javascript:"><img width="100%" height="100%" src="./images/1.jpg" alt="" /></a></div>
+			<div class="sliderBox"><a href="javascript:"><img width="100%" height="100%" src="./images/2.jpg" alt="" /></a></div>
+			<div class="sliderBox"><a href="javascript:"><img width="100%" height="100%" src="./images/3.jpg" alt="" /></a></div>
+			<div class="sliderBox"><a href="javascript:"><img width="100%" height="100%" src="./images/4.jpg" alt="" /></a></div>
+		</div>
+		
+		
+		<!--js-->
+		<script type="text/javascript" src="./js/jquery.js"></script>
+		<script type="text/javascript" src="./js/jquery.slider.js"></script>
+		
+		<script type="text/javascript">
+			$(function(){
+				$("#slider").slider();
+			})
+		</script>
+	
+	</body>
+</html>

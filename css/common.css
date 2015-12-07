@@ -1,0 +1,268 @@
+/*
+*	浏览器适配 
+*	2015.9.19
+*/
+@media screen and (max-width: 1200px) {
+  .head-main,
+  .container {
+    width: 980px !important;
+  }
+}
+/*
+*	header 
+*	2015.10.11
+*/
+.header {
+  background-color: #f6f7f7;
+  min-height: 104px;
+}
+.header .head-top {
+  height: 28px;
+  border-top: 4px solid #777;
+  background-color: #ececec;
+}
+.header .head-main {
+  position: relative;
+  margin: 0 auto;
+  width: 980px;
+  height: 72px;
+  font-size: 12px;
+}
+.header .head-logo {
+  position: absolute;
+  top: -32px;
+  float: left;
+}
+.header .head-list {
+  float: right;
+  margin-top: 20px;
+}
+.header .head-list li {
+  float: right;
+}
+.header .head-list a {
+  display: block;
+  position: relative;
+  padding: 0 20px;
+  height: 52px;
+  color: #202020;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.header .head-list a.choo .hl-left {
+  width: 50%;
+  left: 0 !important;
+}
+.header .head-list a.choo .hl-right {
+  width: 50%;
+  right: 0 !important;
+}
+.header .head-list .hl-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 4px;
+  background-color: #02d3d7;
+}
+/*
+*	container 
+*	2015.10.11
+*/
+.container {
+  margin: 0 auto;
+  width: 980px;
+}
+/*
+*	foot 
+*	2015.10.12
+*/
+.footer {
+  min-height: 222px;
+}
+.footer .foot-con {
+  position: relative;
+  width: 100%;
+  min-width: 980px;
+  padding: 30px 0 40px 0;
+  display: inline-block;
+  background: #777777;
+}
+.footer .foot-main {
+  margin: 0 auto;
+  width: 980px;
+}
+.footer .foot-main .foot-top-logo {
+  float: left;
+}
+.footer .foot-main .foot-top-logo img {
+  width: 170px;
+  height: 88px;
+}
+.footer .foot-main .foot-top-main {
+  float: right;
+  width: 60%;
+}
+.footer .foot-main .foot-top-main li {
+  float: left;
+  line-height: 25px;
+}
+.footer .foot-main .foot-top-main .ftm-tit {
+  display: inline-block;
+  width: 34px;
+  font-size: 11px;
+  color: #a8a8a8;
+}
+.footer .foot-main .foot-top-main .ftm-txt {
+  color: #fff;
+  font-size: 16px;
+}
+.footer .foot-main .foot-bot .foot-bot-list {
+  float: right;
+}
+.footer .foot-main .foot-bot .foot-bot-list li {
+  float: left;
+}
+.footer .foot-main .foot-bot .foot-bot-list li a {
+  display: block;
+  padding: 0 10px;
+  border-right: 1px solid #a8a8a8;
+  color: #a8a8a8;
+  font-size: 12px;
+}
+.footer .foot-main .foot-bot .foot-bot-list li a:hover {
+  color: #fff;
+}
+.footer .foot-main .foot-bot .foot-bot-list li a.brNone {
+  border: none;
+}
+.footer .foot-cr {
+  position: relative;
+  width: 100%;
+  min-width: 980px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #e9e9e9;
+  font-size: 12px;
+  text-align: center;
+}
+/*
+*	fix 
+*	2015.10.13
+*/
+.fix {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background: #f9f9f9;
+  bottom: 0;
+  z-index: 9999;
+}
+.fix .fix-list {
+  height: 100%;
+}
+.fix .fix-list li {
+  float: right;
+  text-align: center;
+}
+.fix .fix-list li.fix-phone,
+.fix .fix-list li.fix-phone-text {
+  float: left;
+}
+.fix .fix-list .fix-phone-text {
+  position: relative;
+  width: 117px;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 12px;
+  display: block;
+  background-color: #02d3d7;
+  color: #fff;
+}
+.fix .fix-list .fix-phone-text:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -16px;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-left-color: #02d3d7;
+}
+.fix .fix-list .fix-phone {
+  line-height: 60px;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.fix .fix-list .fix-qq,
+.fix .fix-list .fix-weibo,
+.fix .fix-list .fix-contact,
+.fix .fix-list .fix-weixin,
+.fix .fix-list .fix-top {
+  position: relative;
+}
+.fix .fix-list .fix-qq a,
+.fix .fix-list .fix-weibo a,
+.fix .fix-list .fix-contact a,
+.fix .fix-list .fix-weixin a,
+.fix .fix-list .fix-top a {
+  display: block;
+  padding: 10px 10px 0 10px;
+  width: 59px;
+  height: 50px;
+  color: #5d5d5d;
+}
+.fix .fix-list .fix-qq .fa,
+.fix .fix-list .fix-weibo .fa,
+.fix .fix-list .fix-contact .fa,
+.fix .fix-list .fix-weixin .fa,
+.fix .fix-list .fix-top .fa {
+  font-size: 24px;
+}
+.fix .fix-list .fix-qq p,
+.fix .fix-list .fix-weibo p,
+.fix .fix-list .fix-contact p,
+.fix .fix-list .fix-weixin p,
+.fix .fix-list .fix-top p {
+  margin-top: 5px;
+  font-size: 10px;
+}
+.fix .fix-list .fix-qq a:hover,
+.fix .fix-list .fix-weibo a:hover,
+.fix .fix-list .fix-contact a:hover,
+.fix .fix-list .fix-weixin a:hover,
+.fix .fix-list .fix-top a:hover {
+  background-color: #02d3d7;
+  color: #fff;
+}
+.fix .fix-list .fix-code {
+  display: none;
+  position: absolute;
+  top: -120px;
+  left: -20px;
+  padding: 10px;
+  background-color: #fff;
+}
+.fix .fix-list .fix-code img {
+  width: 100px;
+  height: 100px;
+}
+.fix .fix-list .fix-weixin:hover .fix-code {
+  display: block;
+}
+.fix .fix-list .fix-qq:hover .fix-qq-link {
+  display: block;
+}
+.fix .fix-list .fix-qq-link {
+  display: none;
+  position: absolute;
+  top: -31px;
+  left: 0;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #fff;
+  border: 1px solid #777777;
+  border-bottom: none;
+  color: #606060;
+  z-index: 10000;
+}

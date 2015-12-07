@@ -1,0 +1,79 @@
+.aboutItem{
+	width:90%;
+	margin:0px auto;
+	font-size:13px;
+	color:#5f5f5f;
+}
+.aITittle{
+	padding-top:30px;
+}
+.aITittle p{
+	text-align:center;
+}
+.aITittle .aIT1{
+	font-size:19px;
+}
+.aITittle .aIT2{
+	padding-top:5px;
+	font-size:14px;
+}
+.aINode{
+	padding:30px 0px;
+	border-bottom:1px dotted #000;
+}
+.aINLeft{
+	width:30%;
+	height:120px;
+	background-color:#939393;
+	color:#fff;
+	float:left;
+}
+.aINLeft p{
+	text-align:center;
+}
+.aINLeft .aINL1{
+	font-size:16px;
+	padding-top:40px;
+}
+.aINLeft .aINL2{
+	padding-top:5px;
+	font-size:9px;
+}
+.aINRight{
+	width:65%;
+	float:left;
+	margin-left:5%;
+}
+.aINRight p{
+	line-height:21px;
+}
+.aINR1{
+	float:left;
+	width:120px;
+	margin:0px 6%;
+}
+.aINR1a{
+	width:120px;
+	height:120px;
+	border-radius:60px;
+	background-color:#00D3D7;
+	color:#fff;
+}
+.aINR1a p{
+	text-align:center;
+}
+.aINR1a .aINR1a1{
+	font-size:14px;
+	padding-top:50px;
+	line-height:14px;
+}
+.aINR1a .aINR1a2{
+	padding-top:5px;
+	font-size:9px;
+	line-height:13px;
+}
+.aINR1b{
+	text-align:center;
+	padding-top:5px;
+	font-size:12px;
+}
